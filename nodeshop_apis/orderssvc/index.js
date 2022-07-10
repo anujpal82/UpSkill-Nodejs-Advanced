@@ -1,7 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const AWS = require('aws-sdk');
-
+const dotenv=require('dotenv')
+dotenv.config();
 const port = process.argv.slice(2)[0];
 const app = express();
 
